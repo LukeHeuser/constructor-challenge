@@ -1,9 +1,9 @@
 public class Main {
     public static void main(String[] args) {
 
-        Customer luke = new Customer();
-        System.out.println("Hello, my name is " + luke.getName() + "! I have a credit limit of " +
-                luke.getCreditLimit() + " and my email is, " + luke.getEmailAddress());
+        Customer person = new Customer();
+        System.out.println("Hello, my name is " + person.getName() + "! I have a credit limit of " +
+                person.getCreditLimit() + " and my email is, " + person.getEmailAddress());
 
         Customer preston = new Customer("Preston", "preston@emailaddress.com");
         System.out.println("Hello, my name is " + preston.getName() + "! I have a credit limit of " +
